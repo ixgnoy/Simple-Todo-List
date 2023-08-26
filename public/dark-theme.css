@@ -1,0 +1,20 @@
+/* Dark Theme Styles */
+
+/* Background and Text Colors */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Toggle Switch Styles */
+.switch .slider {
+    background-color: #888;
+}
+
+/* Checked state styles */
+input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+/* Other dark mode styles */
+/* Add your custom styles for dark mode here */

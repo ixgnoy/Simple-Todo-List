@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid;
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+}
+/* Switch Styles */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+/* Checked state styles */
+input:checked + .slider {
+    background-color: #2196F3;
+}
+.completed {
+    text-decoration: line-through;
+}
+
